@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 
 // Hardcoded backend API URL as requested.
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
